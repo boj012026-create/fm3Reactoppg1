@@ -74,13 +74,30 @@ const menuData = [
   },
 ];
 
-console.log(menuData)
+const appetizers = menuData.filter((dish) => dish.kategori === "Forrett");
+const mainCourses = menuData.filter((dish) => dish.kategori === "Hovedrett");
+const desserts = menuData.filter((dish) => dish.kategori === "Dessert");
+
+//console.log(menuData)
 
 function App() {
 
   return (
     <>
-    <Menu menu={menuData}/>
+      <h1>Meny</h1>
+      <article>
+        <h2>Forretter</h2>
+        <Menu menu={appetizers}/>
+      </article>
+      <article>
+        <h2>Forretter</h2>
+        <Menu menu={mainCourses}/>
+      </article>
+      <article>
+        <h2>Forretter</h2>
+        <Menu menu={desserts}/>
+      </article>
+
     </>
   )
 }
