@@ -90,11 +90,11 @@ function App() {
         <Menu menu={appetizers}/>
       </article>
       <article>
-        <h2>Forretter</h2>
+        <h2>Hovedretter</h2>
         <Menu menu={mainCourses}/>
       </article>
       <article>
-        <h2>Forretter</h2>
+        <h2>Desserter</h2>
         <Menu menu={desserts}/>
       </article>
 
