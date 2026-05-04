@@ -1,9 +1,12 @@
 {
   "name": "oppg1",
   "private": true,
+  "homepage": "https://boj012026-create.github.io/fm3Reactoppg1",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "pnpm run build",
+    "deploy": "pnpm run gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
@@ -21,6 +24,7 @@
     "eslint": "^10.2.1",
     "eslint-plugin-react-hooks": "^7.1.1",
     "eslint-plugin-react-refresh": "^0.5.2",
+    "github-pages": "^3.0.2",
     "globals": "^17.5.0",
     "vite": "^8.0.10"
   }
