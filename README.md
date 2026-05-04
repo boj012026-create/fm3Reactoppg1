@@ -1,3 +1,4 @@
-# Dette er foreløbig en blank meny
+# Resturantmeny
+En mock resturant meny lagd med React.
 
-før var dette bevis på at dette prosjektet en boilerplate fra vite react
+under about er link til websiden
