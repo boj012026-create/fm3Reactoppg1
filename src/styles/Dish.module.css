@@ -4,9 +4,15 @@
   align-items: end;
   justify-content: space-between;
   justify-content: space-between;
-  border: 4px solid white;
+  box-shadow: 0 0 0.5em var(--color-tertiary);
+  backdrop-filter: blur(15px);
+  border: 2px solid var(--color-secondary); 
   border-radius: 2em;
   gap: 2em;
   padding: 2em;
+}
+
+.card:hover {
+  box-shadow: 0 0 1em var(--color-tertiary);
 }
 

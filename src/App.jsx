@@ -1,5 +1,6 @@
 import './App.css'
 import Menu from './components/Menu.jsx'
+import barImg from '/bar.png'
 
 const menuData = [
   {
@@ -83,12 +84,15 @@ const desserts = menuData.filter((dish) => dish.kategori === "Dessert");
 function App() {
 
   return (
-    <>
+    <section style={{
+      backgroundImage: "url('/fm3Reactoppg1/bar.png')",
+      backgroundSize: 'cover'
+    }}>
       <h1>Meny a la carte</h1>
         <Menu menu={appetizers}/>
         <Menu menu={mainCourses}/>
         <Menu menu={desserts}/>
-    </>
+    </section>
   )
 }
 

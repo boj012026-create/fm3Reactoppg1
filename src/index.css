@@ -1,17 +1,16 @@
 :root {
-  --color-primary: white;
-  --color-secondary: wheat;
-  --color-tertiary: white;
-  --color-quaternary: golden;
-  --color-quinary: grey;
+  --color-primary: #f966;
+  --color-secondary: #fff9;
+  --color-tertiary:  wheat;
+  --color-quaternary: #fff0;
+  --color-quinary: aqua;
 
-  --gradient: linear-gradient(var(--color-primary), var(--color-secondary));
+  --gradient: linear-gradient(45deg, var(--color-primary), var(--color-secondary));
+  --radial: radial-gradient(var(--color-secondary), var(--color-quaternary))
 }
 
-.menuCategory {
-  display: flex;
+.frosted {
+  
 }
-
-
 body {
 }

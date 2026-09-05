@@ -2,12 +2,19 @@
   display: grid;
   grid: auto-flow / repeat(2, 1fr);
   gap: 1em 2em;
+  padding: 1em 1.5em;
 }
 
-.textCenter {
+.category {
   text-align: center;
+  background: var(--radial);
+  padding: 0.5em 5em;
+  border-radius: 42%;
+  box-shadow: 0 0 0.5em var(--color-tertiary);
+  width: fit-content;
+  margin: 2em auto 0.5em;
 }
- 
+
 @media (max-width: 670px) {
   .menu {
     display: flex;
