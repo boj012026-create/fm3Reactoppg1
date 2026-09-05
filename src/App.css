@@ -1,3 +1,7 @@
 .menuCategory {
   display: flex;
 }
+
+body {
+  background-color: blanchedalmond;
+}
