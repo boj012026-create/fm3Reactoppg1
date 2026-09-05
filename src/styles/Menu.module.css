@@ -2,6 +2,7 @@
   display: grid;
   grid: auto-flow / repeat(2, 1fr);
   gap: 1em 2em;
+  background-color: var(--color-primary);
 }
 
 .textCenter {

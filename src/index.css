@@ -1,0 +1,16 @@
+root: {
+  --color-primary: brown;
+  --color-secondary: brown;
+  --color-tertiary: white;
+  --color-quaternary: golden;
+  --color-senary: grey;
+
+}
+.menuCategory {
+  display: flex;
+}
+
+
+body {
+  background-color: blanchedalmond;
+}
