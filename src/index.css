@@ -1,16 +1,17 @@
-root: {
-  --color-primary: brown;
-  --color-secondary: brown;
+:root {
+  --color-primary: white;
+  --color-secondary: wheat;
   --color-tertiary: white;
   --color-quaternary: golden;
-  --color-senary: grey;
+  --color-quinary: grey;
 
+  --gradient: linear-gradient(var(--color-primary), var(--color-secondary));
 }
+
 .menuCategory {
   display: flex;
 }
 
 
 body {
-  background-color: blanchedalmond;
 }

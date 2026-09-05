@@ -84,7 +84,7 @@ function App() {
 
   return (
     <>
-      <h1>Meny ala carte</h1>
+      <h1>Meny a la carte</h1>
         <Menu menu={appetizers}/>
         <Menu menu={mainCourses}/>
         <Menu menu={desserts}/>
