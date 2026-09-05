@@ -3,10 +3,22 @@
   grid: auto-flow / repeat(2, 1fr);
   gap: 1em 2em;
 }
+
+.textCenter {
+  text-align: center;
+}
  
 @media (max-width: 670px) {
   .menu {
     display: flex;
     flex-direction: column;
+  }
+}
+
+@media (min-width: 1000px) {
+  .menu {
+    grid: auto-flow / repeat(3, 1fr);
+    padding: 1em 4em; 
+    gap: 3em 4em;
   }
 }

@@ -5,9 +5,6 @@ root: {
   display: flex;
 }
 
-.text-center {
-  text-align: center;
-}
 
 body {
   background-color: blanchedalmond;
