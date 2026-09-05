@@ -1,3 +1,6 @@
+root: {
+  --color-primary: brown;
+}
 .menuCategory {
   display: flex;
 }
